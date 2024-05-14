@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  padding-top: 50px;
+}
+
+.orderDetail {
+  width: 310px;
+  padding: 6px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.orderDetail .orderInfo {
+  width: 298px;
+  margin-bottom: 16px;
+}
+.orderDetail .orderInfo h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #829886;
+  background-color: #eaf0ed;
+  padding: 16px 101px;
+}
+.orderDetail .orderInfo ul {
+  width: 298px;
+  padding: 16px;
+  border: 1px solid #eaf0ed;
+}
+.orderDetail .orderInfo ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.orderDetail .orderInfo ul li p {
+  font-weight: 500;
+  line-height: 1.4;
+  color: #829886;
+}
+.orderDetail .orderInfo ul .total p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-top: 8px;
+}
+.orderDetail .orderList h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #829886;
+  background-color: #eaf0ed;
+  padding: 16px 101px;
+}
+.orderDetail .orderList ul {
+  padding: 16px 26px 16px 16px;
+  border: 1px solid #eaf0ed;
+}
+.orderDetail .orderList ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.orderDetail .orderList ul li img {
+  width: 118px;
+  height: 73px;
+  margin-right: 16px;
+}
+.orderDetail .orderList ul li .productInfo p {
+  font-weight: 500;
+  line-height: 1.4;
+  color: #829886;
+}
+.orderDetail .orderList ul li .productInfo .price {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #829886;
+}/*# sourceMappingURL=all.css.map */
